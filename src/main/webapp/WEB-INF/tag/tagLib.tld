@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0">
+	<tlibversion>1.1.2</tlibversion>
+	<jspversion>2.0</jspversion>
+	<shortname>TagLib</shortname>
+	<uri>/WEB-INF/tag/tagLib</uri>
+
+
+	<tag>
+		<name>ComboEspecialidad</name>
+		<tag-class>org.joedayz.acweb.tag.ComboEspecialidad</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	
+	<tag>
+		<name>ComboMedicoPorId</name>
+		<tag-class>org.joedayz.acweb.tag.ComboMedicoEspecialidad</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>idEspecialidad</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+		
+	<tag>
+		<name>ComboRol</name>
+		<tag-class>org.joedayz.acweb.tag.ComboRol</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	
+	
+</taglib>

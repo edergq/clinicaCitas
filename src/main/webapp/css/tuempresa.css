@@ -1,0 +1,65 @@
+body{margin:0;padding:0;background-color:#ffffff;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+a{text-decoration:none; color:#5BA9CC;}
+a:hover{text-decoration:underline;}
+.display{color:#333;text-decoration:none;}
+.display:hover{color:#CCC;text-decoration:none;}
+
+#contenedor, #conteiner{margin-left:auto; margin-right:auto;width:1000px; height:500px;}
+#back{width:800px; height:300px; background:url(../images/back.png) no-repeat;margin-left:auto; margin-right:auto;margin-top:150px;bottom:0px;}
+#fondo{position:relative;background:url(../images/fondo.png) no-repeat;	width:382px;height:365px;left:200px;z-index:10;color:#333;font-size:12px;}
+#fondo span{color:#5BA9CC;}
+#logo{z-index:900;position:relative;width:433px;height:89px;background:url(../images/logo.png) no-repeat;left: 92px;top:-60px;}
+#title{margin-left:85px;width:250px;position:relative; z-index:999;font-size:24px; padding-top:50px;}
+#title .texto{font-size:14px; color:#333;}
+
+
+#footer_login{text-align:center;color:#999;font-size:12px;width:900px;margin-left:auto; margin-right:auto;height:85px;margin-top:70px;}
+#footer_login .left{float:left;margin-top:70px;}
+#footer_login .right{float:right;}
+
+/*para inputs*/
+input{width:217px; font-size:12px;color:#5BA9CC;padding:1px;margin-top:5px;margin-bottom:5px;}
+input:hover, input:focus{border:solid 1px #5BA9CC;}
+select{width:217px; font-size:12px;color:#5BA9CC;padding:1px;margin-top:5px;margin-bottom:5px;}
+.button{padding:5px;border:solid 1px #5BA9CC;color:#5BA9CC;width:70px;}
+.button:hover{color:#cccccc;}
+
+
+/*utilitarios*/
+.centrado{text-align:right;margin-right:30px;}
+.titulo1{font-size:15px;color:#5BA9CC;}
+.contenido1{color:#5BA9CC;}
+table{border:solid 1px #999;}
+.row{background:url(../images/table/top.jpg) repeat-x;}
+
+
+/*paginas interiores*/
+#top{height:90px;border-bottom:solid 2px #5BA9CC;}
+#logoI{width:150px; height:68px;background:url(../images/logoint.png) no-repeat;margin-top:10px;margin-left:10px;float:left;}
+#logMid{width:200px;margin-top:10px;float:left;margin-left:240px;font-size:12px;text-align:center;}
+#logIn {margin-right:10px; width:200px;height:68px;margin-top:10px;float:right;text-align:right;font-size:11px;line-height:19px;}
+#logIn div{color:#333;font-size:12px;}
+
+#middle{border-bottom:solid 1px #999;height:auto;padding:10px;color:#999;font-size:12px;}
+
+
+#footer_main{color:#999;font-size:10px;margin-left:auto; margin-right:auto;font-size:11px;padding-top:10px;}
+.izq{float:left;}
+.der{float:right;}
+
+
+/*para tabla*/
+.styleTable { border-collapse: collapse;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:12px; }
+.styleTable TD { font-weight: normal !important; padding: 2px;; border-top-width: 0px !important; }
+.styleTable TH { text-align: center; padding: 8px; text-transform:capitalize;}
+.styleTable TD.first, .styleTable TH.first { border-left-width: 0px !important; }
+
+
+/*mensajes error*/
+#title .error{font-size:12px;color:#FC1610; font-weight:bold;}
+.error{font-size:12px;color:#FC1610; font-weight:bold;}
+
+.titleForm{font-size:16px;color:#5BA9CC;font-weight:bold;}
+	
+.labels{font-size:14px;color:#999; font-weight:bold; margin-left: 5px}
+	

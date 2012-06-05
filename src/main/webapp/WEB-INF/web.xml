@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ProyectServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>login</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>ServletLogin</servlet-name>
+    <servlet-class>org.joedayz.acweb.web.ServletLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletUsuario</servlet-name>
+    <servlet-class>org.joedayz.acweb.web.ServletUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLogin</servlet-name>
+    <url-pattern>/ServletLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletUsuario</servlet-name>
+    <url-pattern>/ServletUsuario</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>20</session-timeout>
+  </session-config>
+  <servlet>
+    <description></description>
+    <display-name>ServletCitas</display-name>
+    <servlet-name>ServletCitas</servlet-name>
+    <servlet-class>org.joedayz.acweb.web.ServletCitas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletCitas</servlet-name>
+    <url-pattern>/ServletCitas</url-pattern>
+  </servlet-mapping>
+</web-app>
